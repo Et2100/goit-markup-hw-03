@@ -1,3 +1,8 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -5,76 +10,91 @@ body {
     background-color: #ffffff;
     line-height: 1.5;
 }
+
 .logo-link {
     background-color: inherit;
 
 }
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    text-transform:uppercase;
+    text-transform: uppercase;
     line-height: 1.17;
     letter-spacing: 0.03em;
     background-color: inherit;
-    color:#4d5ae5;
+    color: #4d5ae5;
 }
+
 .logo-studio {
     font-family: "Raleway", sans-serif;
     font-weight: bold;
     font-size: 18px;
-    text-transform:uppercase;
+    text-transform: uppercase;
     line-height: 1.3125;
     letter-spacing: 0.02em;
     background-color: inherit;
-    color:#2e2f42; 
+    color: #2e2f42;
 }
 
 
 
 .nav-list .link {
-    color:#2e2f42;
+    font-weight: 500;
+    font-size: 16px;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
+
 .nav-list .link:hover {
     color: #404bbf
 }
+
 .nav-list .link.link:focus {
     color: #404bbf;
 }
-.contact {
-    font-style: normal;
-}
-.address-list .link{
-    color: #434455;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-.address-list .link:hover {
-    color: #404bbf;
-}
-.link-contact:active {
-    color: #404bbf;
-}
-.link-contact:focus {
-    color:#404bbf;
-}
+
+/*
 nav ul li:first-of-type {
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+*/
 nav ul li:focus {
-    font-weight: 500;
-    font-size: 16px;
     color: #404bbf;
 }
+
+.contact {
+    font-style: normal;
+}
+
+.address-list .link {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.address-list .link:hover {
+    color: #404bbf;
+}
+
+.link-contact:active {
+    color: #404bbf;
+}
+
+.link-contact:focus {
+    color: #404bbf;
+}
+
 .hero-image {
     color: #434455;
     background-color: #2e2f42;
 }
+
 .page-title {
     color: #ffffff;
     font-size: 56px;
@@ -96,6 +116,7 @@ nav ul li:focus {
     cursor: pointer;
     margin: auto;
 }
+
 .btn:hover {
     background-color: #404bbf;
     font-weight: Medium;
@@ -104,16 +125,18 @@ nav ul li:focus {
     letter-spacing: 0.04em;
     color: #ffffff;
 }
+
 .btn:focus {
     background-color: #404bbf;
 }
+
 .our-team {
     background-color: #f4f4fd;
 }
 
 .section-title {
     font-size: 36px;
-    font-weight: 500;
+    font-weight: 700;
     text-align: center;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -129,29 +152,36 @@ nav ul li:focus {
     background-color: inherit;
     color: #2e2f42;
 }
+
 .our-team-list {
     background-color: #ffffff;
 
 }
+
 ul {
     list-style-type: none;
 }
+
 .text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
+
 .page-footer {
-    background-color:  #2e2f42;
+    background-color: #2e2f42;
     color: #ffffff;
 }
+
 a {
     text-decoration: none;
 }
+
 a:hover {
-    color: #4d5ae5; 
+    color: #4d5ae5;
 }
+
 .foot-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -162,6 +192,7 @@ a:hover {
     background-color: inherit;
     color: #4d5ae5;
 }
+
 .foot-logo-studio {
     font-family: "Raleway", sans-serif;
     font-weight: bold;
@@ -172,7 +203,61 @@ a:hover {
     background-color: inherit;
     color: #f4f4fd;
 }
+
 .foot-text {
     color: #f4f4fd;
     letter-spacing: 0.02em;
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.box {
+    box-sizing: border-box;
+    width: 150px;
+    height: 150px;
+    border: 5px solid #f44336;
+    padding: 30px;
+    margin: 100px;
+    background-color: #ffeb3b;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+/*
+background-color rgb(102, 102, 102) border-bottom-right-radius 2px border-top-right-radius 2px box-shadow rgba(0, 0, 0, 0) 0px 3px 0px 0px inset box-sizing border-box color rgb(255, 255, 255) cursor pointer display inline-block font-family Lato,
+"Lucida Grande",
+"Lucida Sans Unicode",
+Tahoma,
+sans-serif font-size 13px font-weight 400 height 35px letter-spacing 0.6px line-height normal list-style-image none list-style-position outside list-style-type none margin-bottom 0px margin-left 0px margin-right 0px margin-top 0px padding-bottom 10px padding-left 16px padding-right 16px padding-top 10px text-align left text-decoration-color rgb(255, 255, 255) text-decoration-line none text-decoration-style solid text-decoration-thickness auto text-wrap nowrap transition-behavior normal,
+normal,
+normal transition-delay 0s,
+0s,
+0s transition-duration 0.2s,
+0.2s,
+0.2s transition-property background,
+box-shadow,
+-webkit-box-shadow transition-timing-function ease,
+ease,
+ease white-space-collapse collapse width 56.8047px-->
+*/
