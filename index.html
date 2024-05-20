@@ -10,13 +10,17 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     
 </head>
 <body>
-    <header class="top-line">
-        <nav class="navigation">
-            <a class="logo" href="./index.html" target="_top">Web<span class="logo-studio">Studio</span></a>
-
+    <header class="container top-line">
+        <div class="box-head">
+            <nav class="navigation">
+                <a class="logo-web" href="./index.html" target="_top">Web<span class="logo-studio">Studio</span></a>
+            
             <ul class="nav-list">
                 <li>
                     <a href="./index.html" class="link" target="_parent">Studio</a>
@@ -28,9 +32,10 @@
                     <a href="" class="link" target="_parent">Contacts</a>
                 </li>
             </ul>
+        
         </nav>
 
-        <address class="contact">
+        <address class="container contact">
                 <ul class="address-list">
                     <li>
                         <a href="mailto:info@devstudio.com" class="link link-contact" target="_blank">info@devstudio.com</a>
@@ -40,15 +45,19 @@
                     </li>
                 </ul>
         </address>
+        </div>
     </header>
     <main>
     <section class="hero-image section-one">
+        <div class="container box-hero-image">
         <h1 class="page-title">Effective Solutions
         for Your Business</h1>
-            <button type="button" class="btn">Order Service</button>
+        <button type="button" class="btn">Order Service</button>
+    </div>
     </section>
 
-    <section class="valuse section-two">
+    <section class="container section-two">
+        <div class="container box-two">
 
         <h2 class="section-title title-two">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Verit</h2>
         <ul class="values">
@@ -70,11 +79,13 @@
                 <p class="text">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
             </li>
         </ul>
+        </div>
     </section>
 
     <section class="our-team section-three">
-        <h2 class="section-title">Our Team</h2>
-        <ul>
+        <div class="container box-three">
+        <h2 class="section-title our-team-title">Our Team</h2>
+        <ul class="box-three-list">
             <li class="our-team-list">
                 <img src="./images/img1edit.jpeg" alt="Mark Guererro" width="264" height="260">
                 <h3 class="title-three">Mark Guerrero</h3>
@@ -96,47 +107,56 @@
                 <p class="text">UI Designer</p>
             </li>    
         </ul>
+        </div>
     </section>
-    <section class="our-portfolio section-four">
-        <h2 class="section-title">Our Portfolio</h2>
-        <ul>
-            <li>
+    <section class="container our-portfolio section-four">
+        <div class="conatainer box-four">
+        <h2 class="section-title our-portfolio-title">Our Portfolio</h2>
+        <ul class="box-four-list">
+            <div class="container portfolio-box portfolio-box-one">
+            <li class="card">
                 <img src="./images/img5edit.jpeg" alt="Mark Guererro" width="360" height="300">
                 <h3 class="title-three">Banking App</h3>
                 <p class="text">App</p>
             </li>
-            <li>
+            <li class="card">
                 <img src="./images/img6edit.jpeg" alt="Tom Ford" width="360" height="300">
                 <h3 class="title-three">Cashless Payment</h3>
                 <p class="text">Marketing</p>
             </li>
-            <li>
+            <li class="card">
                 <img src="./images/img7edit.jpeg" alt="Camila Garcia" width="360" height="300">
                 <h3 class="title-three">Meditation App</h3>
                 <p class="text">App</p>
             </li>
-            <li>
+            </div>
+            <div class="container portfolio-box portfolio-box-two">
+            <li class="card">
                 <img src="./images/img8edit.jpeg" alt="Daniel Wilson" width="360" height="300">
                 <h3 class="title-three">Taxi Service</h3>
                 <p class="text">Marketing</p>
             </li>
-            <li>
+            <li class="card">
                 <img src="./images/img9edit.jpeg" alt="Daniel Wilson" width="360" height="300">
                 <h3 class="title-three">Screen Illustrations</h3>
                 <p class="text">Design</p>
             </li>
-            <li>
+            <li class="card">
                 <img src="./images/img10edit.jpeg" alt="Daniel Wilson" width="360" height="300">
                 <h3 class="title-three">Online Courses</h3>
                 <p class="text">Marketing</p>
             </li>
         </ul>
+        </div>
     </section>
+    </div>
     </main>
 
     <footer class="page-footer">
+        <div class="conatainer box-footer">
         <a class="foot-logo" href="./index.html" target="_top">Web<span class="foot-logo-studio">Studio</span></a>
         <p class="foot-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+        </div>
     </footer>
 </body>
 </html>
