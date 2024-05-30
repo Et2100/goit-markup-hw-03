@@ -343,9 +343,6 @@ nav ul li:focus {
     row-gap: 48px;
     padding-bottom: 48px;
 }
-.portfolio-box-two {
-    margin-bottom: 120px;
-}
 .card {
     width: calc((100% - 48px) / 3);
 }
