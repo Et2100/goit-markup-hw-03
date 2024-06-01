@@ -3,6 +3,10 @@
 *::after {
     box-sizing: border-box;
 }
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -283,7 +287,7 @@ nav ul li:focus {
 .our-team {
     /* width: 100vw;
     height: 100vh; */
-    padding: 120px 0;
+    padding: 32px 0;
 
 }
 /* .box-three {
@@ -363,10 +367,10 @@ nav ul li:focus {
     /* display: flex;
     flex-direction: column;
     align-items: flex-start; */
-    width: 264px;
+    /* width: 264px; */
         gap: 0px;
         opacity: 0px;
-        margin: 100px 156px 1020px 100px;
+        /* margin: 100px 156px 1020px 100px; */
         padding: 100px 0;
 }
 a {
