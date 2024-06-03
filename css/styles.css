@@ -24,8 +24,8 @@ p {
 }
 
 ul {
-    margin: 0;
-    padding: 0;
+    /* margin: 0;
+    padding: 0; */
     list-style-type: none;
 }
 img {
@@ -346,7 +346,7 @@ nav ul li:focus {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    padding-bottom: 48px;
+    /* padding-bottom: 48px; */
 }
 .card-title {
     padding: 32px 16px;
