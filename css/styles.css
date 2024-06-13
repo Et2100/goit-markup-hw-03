@@ -231,6 +231,16 @@ nav ul li:focus {
 }
 .section-two {
     padding: 120px 0;
+    /* margin: 0 156px; */
+}
+.section-title {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 .values {
     display: flex;
@@ -243,14 +253,16 @@ nav ul li:focus {
 .values-li {
    width: calc((100% - 72px)/4);
 }
-.section-title {
-    font-size: 36px;
-    font-weight: 700;
-    text-align: center;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
+.values-name-box {
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    text-align: right;
+}
+.values-text {
+    text-align: ;
+    margin-left: auto;
+    margin-right: auto;
 }
 .visually-hidden {
     position: absolute;
@@ -259,7 +271,6 @@ nav ul li:focus {
     margin: -1px;
     border: 0;
     padding: 0;
-
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
@@ -303,17 +314,18 @@ nav ul li:focus {
         opacity: 0px;
 }
 .our-team-list {
-    /* background-color: #fffff; */
+    background-color: #fffff;
         text-align: center;
-        box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16) 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-            border-radius: 0px 0px 4px 4px;
-            opacity: 0px;
-            width: calc((100% - 72px) / 4);
-            margin-top: 40px;
-            /* padding-bottom: 120px; */
+        width: calc((100% - 72px) / 4);
+        margin-top: 40px;
 }
 .member-name {
+    background-color: #ffffff;
     padding: 32px 0;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+    opacity: 0px;
 }
 .text {
     text-align: center;
